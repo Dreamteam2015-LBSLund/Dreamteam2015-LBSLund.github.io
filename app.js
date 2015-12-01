@@ -7,6 +7,10 @@ angular.module('app', ['ngRoute'])
        else return '';
    };
    
+   $scope.contributors = [
+	{ name: 'Johannes', link: 'http://github.com/johannes-larsson' },
+	{ name: 'Tom', link: 'http://github.com/indietom' }
+	];
 })
 
 .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
