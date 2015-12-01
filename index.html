@@ -10,6 +10,12 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.min.js'></script>	
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-route.min.js'></script>	
 	<script src='app.js'></script>
+	
+	<style>
+        body {
+            padding-top: 80px;
+        }
+    </style>
 </head>
 
 <body ng-app='app'>
@@ -28,7 +34,7 @@
                     <li class='navButton' ng-class='isActive("/home")'><a href='#home'>Home</a></li>
                     <li class='navButton' ng-class='isActive("/about")'><a href='#about'>About</a></li>
                     <li class='dropdown'>
-                        <a class='dropdown-toggle' data-toggle='dropdown' role='button'>Other <span class='caret'></span></a>
+                        <a class='dropdown-toggle' data-toggle='dropdown' role='button'>Contributors<span class='caret'></span></a>
                         <ul class='dropdown-menu'>
                             <li><a href='http://github.com/johannes-larsson'>Johannes on Github</a></li>
 							<li><a href='http://github.com/indietom'>Tom on Github</a></li>
