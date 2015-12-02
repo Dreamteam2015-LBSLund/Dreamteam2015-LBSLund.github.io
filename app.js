@@ -9,8 +9,8 @@ angular.module('app', ['ngRoute'])
   }
 
   $scope.contributors = [
-    { name: 'Johannes', link: 'http://github.com/johannes-larsson' },
-    { name: 'Tom', link: 'http://github.com/indietom' }
+    { name: 'Tom', link: 'http://github.com/indietom' },
+    { name: 'Johannes', link: 'http://github.com/johannes-larsson' }
   ]
 })
 
