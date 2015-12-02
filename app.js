@@ -16,6 +16,7 @@ angular.module('app', ['ngRoute'])
 
 .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider
+  .when('/documentation', { templateurl: 'https://github.com/Dreamteam2015-LBSLund/Village-Tycoon-RTS/tree/master/Documents' })
   .when('/home', { templateUrl: 'views/home.html' })
   .when('/about', { templateUrl: 'views/about.html' })
   .otherwise('/home')
