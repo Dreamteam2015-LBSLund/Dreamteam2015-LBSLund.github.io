@@ -19,6 +19,7 @@ angular.module('app', ['ngRoute'])
   .when('/documentation', { templateurl: 'https://github.com/Dreamteam2015-LBSLund/Village-Tycoon-RTS/tree/master/Documents' })
   .when('/home', { templateUrl: 'views/home.html' })
   .when('/about', { templateUrl: 'views/about.html' })
+  .when('/blog', { templateUrl: 'view/blog.html'})
   .otherwise('/home')
 
   // $locationProvider.html5Mode({enabled: true, requireBase: false});
